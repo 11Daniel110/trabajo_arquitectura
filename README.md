@@ -14,6 +14,10 @@
 2. Implementaciòn de SOLID.
 <br>
 3. Beneficios y Sacrificios.</h4>
+<br>
+4. Consulta 12 factores de la Programación.</h4>
+<br>
+5. Diagrama de Microservicios.</h4>
 
 <h3>Introduccion al diseño de gestion de flotas inteligente:</h3>
 <p>Desde un inicio, el trabajo a primera vista resulta complicado, y al final si lo fue; estamos frente a la implementación de un proyecto muy 
