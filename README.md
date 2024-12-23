@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informe general</title>
 </head>
 <body>
     <h3><strong><u>Trabajo problema complejo de Arquitectura</u></strong></h3>
@@ -242,26 +241,63 @@ Necesitamos políticas claras y sencillas sobre el uso de datos, un faro en la o
 <strong>Necesidad de mantenimiento continuo:</strong> Las máquinas, como seres vivos, necesitan constante afinación y reparación para funcionar bien, 
 lo que significa mayores gastos a largo plazo, un río que siempre necesita ser renovado.
 </p>
-<style>
-    a {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #4285F4; /* Google Blue */
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s ease; /* Smooth hover effect */
-      font-weight: bold;
-    }
-    a:hover {
-      background-color: #34A853; /* Google Green */
-      cursor: pointer;
-    }
-    a:focus {
-        outline: none; /* Remove default focus outline */
-        box-shadow: 0 0 0 2px #34A853; /* Google Green focus ring */
-    }
-    </style>
+<br>    
+<br>
+<h3>Consulta de los 12 factores de programación</h3>
+<p>Los 12 factores son un conjunto de principios diseñados para ayudar a los desarrolladores a construir aplicaciones que sean escalables, portables y mantenibles, 
+especialmente en entornos de computación en la nube. Estos principios fueron formulados por desarrolladores de Heroku y se han convertido en una guía esencial
+ para el desarrollo de aplicaciones modernas. A continuación, se describen los 12 factores:
+<br>
+<strong>1. Código Base</strong>
+Cada aplicación debe tener un único código base que se almacena en un sistema de control de versiones (como Git). Este código puede ser desplegado en múltiples
+entornos (desarrollo, pruebas, producción), pero no debe haber duplicación de código entre diferentes repositorios.
+<br>
+<strong>2. Dependencias</strong>
+Las dependencias deben ser declaradas explícitamente y aisladas del entorno del sistema operativo. Esto significa que todas las bibliotecas y herramientas necesarias 
+para ejecutar la aplicación deben estar incluidas en el proyecto, evitando conflictos con otras aplicaciones.
+<br>
+<strong>3. Configuración</strong>
+La configuración que puede variar entre entornos (como credenciales de bases de datos o URLs de servicios externos) debe ser separada del código base y proporcionada 
+a la aplicación a través de variables de entorno. Esto permite que el mismo código funcione en diferentes entornos sin cambios.
+<br>
+<strong>4. Servicios de Apoyo</strong>
+Las aplicaciones deben tratar los servicios externos (como bases de datos, sistemas de mensajería, etc.) como recursos adjuntos. Esto implica que cualquier servicio 
+externo debe ser accesible a través de una URL o API, lo que facilita su integración.
+<br>
+<strong>5. Construcción, Lanzamiento y Ejecución</strong>
+El proceso de construcción (compilación del código), lanzamiento (configuración del entorno) y ejecución (ejecución del código) debe ser separado. Esto permite que 
+los desarrolladores realicen cambios sin afectar la ejecución en producción.
+<br>
+<strong>6. Procesos</strong>
+Las aplicaciones deben ejecutarse como uno o más procesos sin estado. Esto significa que cualquier información que necesite ser persistida debe ser almacenada en un 
+servicio externo (como una base de datos), lo que permite escalar fácilmente al agregar más instancias.
+<br>
+<strong>7. Asignación de Puertos</strong>
+Las aplicaciones deben ser auto-contenidas y exponer servicios a través de un puerto definido. Esto permite que las aplicaciones sean fácilmente integradas con otros 
+servicios y herramientas.
+<br>
+<strong>8. Concurrencia</strong>
+Las aplicaciones deben ser capaces de manejar la concurrencia mediante el uso de procesos o hilos. Esto permite escalar la aplicación al manejar múltiples solicitudes
+simultáneamente.
+<br>
+<strong>9. Desechabilidad</strong>
+Los procesos deben ser desechables, lo que significa que pueden iniciarse rápidamente y finalizarse sin problemas. Esto es crucial para mantener la disponibilidad y 
+la resiliencia del sistema.
+<br>
+<strong>10. Paridad entre Desarrollo y Producción</strong>
+Los entornos de desarrollo, pruebas y producción deben ser lo más similares posible para evitar problemas al desplegar el código. Esto ayuda a garantizar que el 
+comportamiento sea consistente en todos los entornos.
+<br>
+<strong>11. Gestión de Logs</strong>
+Los logs deben ser tratados como flujos de eventos y no como archivos estáticos. Esto permite una mejor gestión y análisis en tiempo real, facilitando la 
+identificación de problemas.
+<br>
+<strong>12. Administración de Procesos</strong>
+Las tareas administrativas y de gestión deben ejecutarse como procesos únicos e independientes, lo que simplifica la administración del sistema y mejora la 
+eficiencia operativa.
+</p>
+<br>    
+<br>
 <div align="center">
     
 <h3>Enlace al diagrama de microservicios</h3>
