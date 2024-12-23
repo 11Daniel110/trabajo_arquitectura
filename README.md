@@ -22,7 +22,7 @@ este proyecto y de aqui saltamos la funcionalidad del código y el diseño de nu
 la cual deduje que seria el diagrama de microservicios para asi poder estructurarme en como podia realizar el proyecto y me centre en hacerlo de manera 
 distribuida inlcuyendo bases de datos independientes con sus debidas copias por si llega a fallar alguna de ellas e algun momento.</p>
 
-<h3>1. Explicación de la funcionalidad del código:</h3> 
+<h3>1. Explicación de la funcionalidad del código: Los Archivos del codigo se encuentran en la siguiente ruta: src/main/java/migestionflotas/models y src/main/java/migestionflotas/services</h3> 
 <p><strong>1. Conductor.java</strong>
     Esta clase representa al conductor en el sistema.
     <br>
