@@ -242,7 +242,6 @@ Necesitamos políticas claras y sencillas sobre el uso de datos, un faro en la o
 lo que significa mayores gastos a largo plazo, un río que siempre necesita ser renovado.
 </p>
 <br>    
-<br>
 <h3>Consulta de los 12 factores de programación</h3>
 <p>Los 12 factores son un conjunto de principios diseñados para ayudar a los desarrolladores a construir aplicaciones que sean escalables, portables y mantenibles, 
 especialmente en entornos de computación en la nube. Estos principios fueron formulados por desarrolladores de Heroku y se han convertido en una guía esencial
@@ -297,7 +296,6 @@ Las tareas administrativas y de gestión deben ejecutarse como procesos únicos 
 eficiencia operativa.
 </p>
 <br>    
-<br>
 <div align="center">
     
 <h3>Enlace al diagrama de microservicios</h3>
