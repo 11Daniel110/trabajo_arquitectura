@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Informe general</title>
 </head>
 <body>
     <h3><strong><u>Trabajo problema complejo de Arquitectura</u></strong></h3>
@@ -69,7 +69,6 @@ distribuida inlcuyendo bases de datos independientes con sus debidas copias por 
     <strong>deleteDrivereliminar controlador (ID de cadena):</strong> elimina un controlador del mapa según su ID.
     <br>
     <br>
-    
     <strong>3. AlertaMantenimiento.java</strong>
     Esta clase representa una alerta de mantenimiento para un vehículo.
     <br>
@@ -254,19 +253,16 @@ lo que significa mayores gastos a largo plazo, un río que siempre necesita ser 
       transition: background-color 0.3s ease; /* Smooth hover effect */
       font-weight: bold;
     }
-    
     a:hover {
       background-color: #34A853; /* Google Green */
       cursor: pointer;
     }
-    
     a:focus {
         outline: none; /* Remove default focus outline */
         box-shadow: 0 0 0 2px #34A853; /* Google Green focus ring */
     }
     </style>
-
-    <div align="center">
+<div align="center">
     
 <h3>Enlace al diagrama de microservicios</h3>
     <a href="https://drive.google.com/file/d/1_k0mH42-L6_hVcajqMGLrOTiOHEWMt_I/view?usp=drive_link">Diagrama de microservicios</a>
