@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>				
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Información del proyecto -->
+    <groupId>com.migestionflotas</groupId>
+    <artifactId>gestion-flotas</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <!-- Información de la configuración de Maven -->
+    <properties>
+        <java.version>17</java.version> <!-- Java 17 es obligatorio para Spring Boot 3.x -->
+        <spring-boot.version>3.0.0</spring-boot.version> <!-- Usar la versión más reciente de Spring Boot -->
+    </properties>
+
+    <!-- Definición de las dependencias -->
+    <dependencies>
+        <!-- Dependencia de Spring Boot Starter Web con versión definida -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot.version}</version> <!-- Usando la versión definida en propiedades -->
+        </dependency>
+
+        <!-- Dependencia de Spring Boot Starter Data JPA con versión definida -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>${spring-boot.version}</version> <!-- Usando la versión definida en propiedades -->
+        </dependency>
+
+        <!-- Dependencia de H2 Database con versión definida -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.1.214</version> <!-- Actualizada para ser compatible con Spring Boot 3.x -->
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Dependencia de Spring Boot DevTools con versión definida -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>${spring-boot.version}</version> <!-- Usando la versión definida -->
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- Configuración del plugin de Spring Boot para Maven -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version> <!-- Usando la versión definida -->
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
